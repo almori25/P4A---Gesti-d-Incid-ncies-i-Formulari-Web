@@ -1,0 +1,121 @@
+/* Estilos Generales */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+    background-color: #f0f2f5;
+}
+
+/* Cabecera */
+header {
+    background: #1a252f;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 5px solid #3498db;
+}
+
+.header-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 { margin: 0; color: #3498db; }
+.logo p { margin: 5px 0; font-size: 0.85rem; opacity: 0.8; }
+
+nav ul { list-style: none; padding: 0; display: flex; }
+nav ul li { margin-left: 20px; }
+nav a { color: #fff; text-decoration: none; font-weight: bold; transition: 0.3s; }
+nav a:hover { color: #3498db; }
+
+.btn-nav {
+    background: #e74c3c;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* Formulario */
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+
+fieldset {
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    color: #3498db;
+    padding: 0 10px;
+}
+
+label { display: block; margin-top: 15px; font-weight: 600; }
+label.inline { display: inline; font-weight: normal; margin-left: 5px; }
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+select, 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-submit:hover { background: #219150; }
+
+/* Pie de página */
+footer {
+    background: #1a252f;
+    color: #fff;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+}
+
+footer a { color: #3498db; text-decoration: none; }
